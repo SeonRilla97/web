@@ -1,5 +1,9 @@
 package app
 
+import (
+	"web/config"
+)
+
 type App struct {
 	config *config.Config
 }
@@ -11,5 +15,5 @@ func NewApp(config *config.Config) *App {
 		config: config,
 	}
 
-	return a 
+	return a
 }
